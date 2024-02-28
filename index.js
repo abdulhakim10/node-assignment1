@@ -7,7 +7,7 @@ app.use(express.json());
 app.use('/api/v1/users',userRoute);
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Welcome to the assignment');
 });
 
 app.listen(port, () => {

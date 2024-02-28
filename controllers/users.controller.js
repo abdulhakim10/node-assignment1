@@ -9,8 +9,8 @@ module.exports.getAllUsers = (req, res) => {
 
 // Get a random user from the loaded data
 module.exports.randomUser = (req, res) => {
-  const randomUser = users[Math.floor(Math.random() * users.length)];
-  res.json(randomUser);
+    const randomUser = users[Math.floor(Math.random() * users.length)];
+    res.json(randomUser);
 }
 
 // get a user by id from json file
@@ -24,6 +24,9 @@ module.exports.getUser = (req, res) => {
 module.exports.createUser = (req, res) => {
     const newUser = req.body;
     users.push(newUser);
+    // Save the updated data back to the JSON file
+    const usersDataPath = path.join(__dirname, '../users.json');
+    fs.writeFileSync(usersDataPath, JSON.stringify(users, null, 2), 'utf8');
     res.send(users);
     // console.log(users);
 }
@@ -50,4 +53,39 @@ module.exports.updateUsers = (req, res) => {
     fs.writeFileSync(usersDataPath, JSON.stringify(users, null, 2), 'utf8');
 
     res.json({ message: 'Users updated successfully.' });
+}
+
+// update a user by id
+module.exports.updateUser = (req, res) => {
+    const id = req.params.id;
+    const updatedUser = req.body;
+    // console.log(updatedUser);
+    const userIndex = users.findIndex(user => user.id == id);
+
+    if (userIndex !== -1) {
+        users[userIndex] = updatedUser;
+        res.send(users);
+    } else {
+        res.status(404).send('User not found');
+    }
+}
+
+// delete a user by id
+module.exports.deleteUser = (req, res) => {
+    const id = req.params.id;
+    const userIndex = users.findIndex(user => user.id == id);
+
+    if (userIndex !== -1) {
+        // The splice() method adds and/or removes array elements.
+        // Syntax array.splice(index, howmany, item1, ....., itemX)
+        users.splice(userIndex, 1);
+
+        // Save the updated data back to the JSON file
+        const usersDataPath = path.join(__dirname, '../users.json');
+        fs.writeFileSync(usersDataPath, JSON.stringify(users, null, 2), 'utf8');
+        
+        res.send(users);
+    } else {
+        res.status(404).send('User not found');
+    }
 }

@@ -1,83 +1,82 @@
 [
-    {
-      "id": 1,
-      "gender": "Male",
-      "name": "John Doe",
-      "contact": "+1234567890",
-      "address": "123 Main St, Cityville",
-      "photoURL": "https://example.com/johndoe.jpg"
-    },
-    {
-      "id": 2,
-      "gender": "Female",
-      "name": "Jane Smith",
-      "contact": "+9876543210",
-      "address": "456 Oak St, Townsville",
-      "photoURL": "https://example.com/janesmith.jpg"
-    },
-    {
-      "id": 3,
-      "gender": "Male",
-      "name": "Robert Johnson",
-      "contact": "+1122334455",
-      "address": "789 Elm St, Villagetown",
-      "photoURL": "https://example.com/robertjohnson.jpg"
-    },
-    {
-      "id": 4,
-      "gender": "Female",
-      "name": "Emily Brown",
-      "contact": "+9988776655",
-      "address": "101 Pine St, Hamletsville",
-      "photoURL": "https://example.com/emilybrown.jpg"
-    },
-    {
-      "id": 5,
-      "gender": "Male",
-      "name": "Michael White",
-      "contact": "+5544332211",
-      "address": "555 Cedar St, Countryside",
-      "photoURL": "https://example.com/michaelwhite.jpg"
-    },
-    {
-      "id": 6,
-      "gender": "Female",
-      "name": "Sophia Miller",
-      "contact": "+6677889900",
-      "address": "999 Maple St, Suburbia",
-      "photoURL": "https://example.com/sophiamiller.jpg"
-    },
-    {
-      "id": 7,
-      "gender": "Male",
-      "name": "David Lee",
-      "contact": "+7766554433",
-      "address": "777 Birch St, Metropolis",
-      "photoURL": "https://example.com/davidlee.jpg"
-    },
-    {
-      "id": 8,
-      "gender": "Female",
-      "name": "Olivia Davis",
-      "contact": "+1122334455",
-      "address": "222 Walnut St, Uptown",
-      "photoURL": "https://example.com/oliviadavis.jpg"
-    },
-    {
-      "id": 9,
-      "gender": "Male",
-      "name": "Christopher Taylor",
-      "contact": "+3344556677",
-      "address": "333 Spruce St, Downtown",
-      "photoURL": "https://example.com/christophertaylor.jpg"
-    },
-    {
-      "id": 10,
-      "gender": "Female",
-      "name": "Ava Wilson",
-      "contact": "+9988776655",
-      "address": "444 Oak St, Riverside",
-      "photoURL": "https://example.com/avawilson.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "gender": "Male",
+    "name": "John Doe",
+    "contact": "+9999999999",
+    "address": "New Address",
+    "photoURL": "https://example.com/johndoe.jpg"
+  },
+  {
+    "id": 2,
+    "gender": "Female",
+    "name": "Jane Smith",
+    "contact": "+9876543210",
+    "address": "456 Oak St, Townsville",
+    "photoURL": "https://example.com/janesmith.jpg"
+  },
+  {
+    "id": 3,
+    "gender": "Male",
+    "name": "Robert Johnson",
+    "contact": "+9999999999",
+    "address": "New Address",
+    "photoURL": "https://example.com/robertjohnson.jpg"
+  },
+  {
+    "id": 4,
+    "gender": "Female",
+    "name": "Emily Brown",
+    "contact": "+9988776655",
+    "address": "101 Pine St, Hamletsville",
+    "photoURL": "https://example.com/emilybrown.jpg"
+  },
+  {
+    "id": 5,
+    "gender": "Male",
+    "name": "Michael White",
+    "contact": "+9999999999",
+    "address": "New Address",
+    "photoURL": "https://example.com/michaelwhite.jpg"
+  },
+  {
+    "id": 6,
+    "gender": "Female",
+    "name": "Sophia Miller",
+    "contact": "+6677889900",
+    "address": "999 Maple St, Suburbia",
+    "photoURL": "https://example.com/sophiamiller.jpg"
+  },
+  {
+    "id": 7,
+    "gender": "Male",
+    "name": "David Lee",
+    "contact": "+7766554433",
+    "address": "777 Birch St, Metropolis",
+    "photoURL": "https://example.com/davidlee.jpg"
+  },
+  {
+    "id": 8,
+    "gender": "Female",
+    "name": "Olivia Davis",
+    "contact": "+1122334455",
+    "address": "222 Walnut St, Uptown",
+    "photoURL": "https://example.com/oliviadavis.jpg"
+  },
+  {
+    "id": 9,
+    "gender": "Male",
+    "name": "Christopher Taylor",
+    "contact": "+3344556677",
+    "address": "333 Spruce St, Downtown",
+    "photoURL": "https://example.com/christophertaylor.jpg"
+  },
+  {
+    "id": 10,
+    "gender": "Female",
+    "name": "Ava Wilson",
+    "contact": "+9988776655",
+    "address": "444 Oak St, Riverside",
+    "photoURL": "https://example.com/avawilson.jpg"
+  }
+]
